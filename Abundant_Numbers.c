@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int s=0,i,n;
-    scanf("%d",&n);
-    for(i=1;i<n;i++)
+    int a,b,i,c=0;
+    scanf("%d",&a);
+    for(i=1;i<a;i++)
     {
-        if(n%i==0)
-        s=s+i;
+        if(a%i==0)
+        c=c+i;
     }
-    if(s>n)
+    if(a<c)
     {
         printf("True");
     }
